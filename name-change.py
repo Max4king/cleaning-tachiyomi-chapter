@@ -50,14 +50,14 @@ def check_direct():
         print(current_dir)
         path = current_dir
         confirm = input(f"{current_dir}\nAre you sure this is the correct directory(y/n):")
-        if confirm != "y":
+        if confirm == "y":
             quit()
         renameAllFiles(path)
     elif check_dir == "n":
         new_path_dir = input("Type the desired directory:")
         new_path_dir = new_path_dir.replace("\\","/")
         confirm = input(f"{current_dir}\nAre you sure this is the correct directory(y/n):")
-        if confirm != "y":
+        if confirm == "y":
             quit()
         renameAllFiles(path)
         print("Program quitting")
