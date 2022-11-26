@@ -3,7 +3,7 @@ These python code are design to clean the chapter from tachiyomi to be more orga
 
 the program will take the current working directory upon launch. If you desire to a different directory you can chose to do so.
 
-# Guide to using the program
+# Guide to using the program i.e. name_changer.py
 
 # 1 step
 The program will take the current working directory. If you wish to clean a chapter in another folder without moving the folder
@@ -15,3 +15,5 @@ Then it is DONE.
 
 # Extras
 If in case you get all the chapters in one folder you can use the chapter_arranger.py to arrange the chapter into its respective folder.
+
+P.S. You should tryout the chapter_dryRun.py first to test whehter the program would work correctly first.
